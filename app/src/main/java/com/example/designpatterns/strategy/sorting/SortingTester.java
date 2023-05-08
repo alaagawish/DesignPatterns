@@ -7,7 +7,7 @@ public class SortingTester {
         SortingAlgorithm quick = new QuickSortAlgorithm();
         SortingAlgorithm hashMap = new HashMapSortAlgorithm();
 
-        int[] numbers = {1, 3, 2, 4, 5, 2, 3, 0, -1, -4};
+        int[] numbers = { };
 
         Sorter sorter = new Sorter(merge);
         sorter.sort(numbers);

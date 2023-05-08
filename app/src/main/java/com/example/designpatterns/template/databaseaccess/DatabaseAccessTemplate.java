@@ -1,4 +1,4 @@
-package com.example.designpatterns.template;
+package com.example.designpatterns.template.databaseaccess;
 
 public abstract class DatabaseAccessTemplate {
 
