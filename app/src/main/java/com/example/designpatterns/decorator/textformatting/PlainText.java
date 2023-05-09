@@ -8,6 +8,7 @@ public class PlainText implements Text {
     }
 
     public void draw() {
+
         System.out.println(content);
     }
 

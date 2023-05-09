@@ -8,6 +8,7 @@ public class ItalicText implements Text {
     }
 
     public void draw() {
+        text.draw();
         String italicContent = "\033[3m" + text + "\033[0m";
         System.out.println(italicContent);
     }

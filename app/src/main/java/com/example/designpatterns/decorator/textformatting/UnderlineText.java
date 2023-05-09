@@ -8,6 +8,7 @@ public class UnderlineText implements Text {
     }
 
     public void draw() {
+
         String underlineContent = "\033[4m" + text + "\033[0m";
         System.out.println(underlineContent);
     }

@@ -12,7 +12,7 @@ public class TextFormattingTest {
         italicText.draw();
         underlineText.draw();
 
-//        Text underlineBoldText = new ItalicText(new UnderlineText(new PlainText("Hello, world!")));
-//        underlineBoldText.draw();
+        Text underlineBoldText = new ItalicText(new UnderlineText(new PlainText("Hello, world!")));
+        underlineBoldText.draw();
     }
 }

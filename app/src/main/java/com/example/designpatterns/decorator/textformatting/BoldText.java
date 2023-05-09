@@ -8,6 +8,7 @@ public class BoldText implements Text {
     }
 
     public void draw() {
+        text.draw();
         String boldContent = "\033[1m" + text + "\033[0m";
         System.out.println(boldContent);
     }
